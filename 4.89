@@ -1,0 +1,13 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+n=int(input())#часы когда пришел на платформу
+m=int(input())#минуты когда пришел на платформу
+if a==c==n<=23 and b==d==m<=59 :
+    
+    print('Прибытие поезда: ',a,b,sep=':')
+    print('Отправление поезда: ',c,d,sep=':')
+
+else:
+    print('Время не корректно')
